@@ -52,8 +52,7 @@
     "test:plugin": "yarn expo-module test plugin",
     "build:plugin": "yarn tsc --build plugin",
     "lint:plugin": "yarn eslint plugin/src/*",
-    "build": "yarn bob build",
-    "prepare": "yarn bob build && yarn husky install"
+    "build": "yarn bob build"
   },
   "peerDependencies": {
     "expo": ">=47.0.0",
